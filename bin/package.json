@@ -1,0 +1,36 @@
+{
+  "name": "@nova/rate-limiter",
+  "version": "0.1.0",
+  "description": "Rate limiter module for Nova framework",
+  "keywords": [
+    "nova",
+    "redis",
+    "rate",
+    "limiting",
+    "throttling"
+  ],
+  "main": "index.js",
+  "typings": "nova-rate-limiter.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Credo360, Inc.",
+    "email": "developers@credo360.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herculesinc/nova.rate-limiter.git"
+  },
+  "engines": {
+    "node": "10.15.x"
+  },
+  "dependencies": {
+    "@nova/core": "0.3.x",
+    "redis": "2.8.x",
+    "uuid": "3.3.x"
+  },
+  "devDependencies": {
+    "@types/node": "10.12.x",
+    "del": "3.0.x",
+    "gulp": "4.0.x"
+  }
+}
